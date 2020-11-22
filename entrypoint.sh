@@ -1,3 +1,3 @@
 #!/bin/sh
 
-theme deploy --password=$SHOPIFY_PASSWORD --store=$SHOPIFY_STORE_URL --themeid=$SHOPIFY_THEME_ID --dir=$THEME_PATH --allow-live $INPUT_ARGS
+theme deploy --env=$SHOPIFY_ENV --password=$SHOPIFY_PASSWORD --allow-live $INPUT_ARGS
